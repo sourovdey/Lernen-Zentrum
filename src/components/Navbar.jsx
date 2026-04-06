@@ -9,7 +9,6 @@ export default function Navbar() {
     { name: "Home", path: "/" },
     { name: "Community", path: "/community" },
     { name: "Courses", path: "/courses" },
-    { name: "Membership", path: "/membership" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
@@ -46,10 +45,10 @@ export default function Navbar() {
 
             {/* Login Button */}
             <NavLink
-              to="/join-our-community"
+              to="/memberships"
               className="hidden lg:block bg-slate-900 text-white text-sm px-4 py-2 rounded-full"
             >
-              Join Our Community
+              Become a Member
             </NavLink>
 
             {/* Mobile Menu Button */}
