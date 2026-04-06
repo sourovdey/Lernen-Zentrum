@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
 
           {/* Left Side - Logo */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <NavLink to="/" className="flex items-center">
               <img src={logo} alt="Lernen Zentrum Logo" className="h-8 w-auto" />
             </NavLink>
