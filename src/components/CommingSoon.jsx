@@ -1,4 +1,4 @@
-import commingsoon from '../assets/commingSoon.svg'
+import commingsoonimg from '../assets/Comming_soon_img.svg';
 import { Link } from "react-router-dom";
 
 export default function ComingSoon({ page = "Page" }) {
@@ -23,7 +23,7 @@ export default function ComingSoon({ page = "Page" }) {
         {/* BOTTOM IMAGE */}
         <div className="  flex justify-center mt-10">
         <img
-          src={commingsoon}
+          src={commingsoonimg}
           className="w-150"
           alt="team"
         />
