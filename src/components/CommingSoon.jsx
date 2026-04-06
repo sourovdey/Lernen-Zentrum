@@ -1,4 +1,4 @@
-import commingsoon from '../assets/commingsoon.svg'
+import commingsoon from '../assets/commingSoon.svg'
 import { Link } from "react-router-dom";
 
 export default function ComingSoon({ page = "Page" }) {
