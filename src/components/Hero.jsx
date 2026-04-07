@@ -5,7 +5,7 @@ import hero from "../assets/Hero.svg";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen flex items-center font-poppins overflow-hidden bg-[#f8fafc] py-16 lg:py-0">
+    <section className="relative w-full min-h-[calc(100vh-64px)] flex items-start lg:items-center font-poppins overflow-hidden bg-[#f8fafc] py-10 lg:py-0">
 
       {/* 🔲 GRID BACKGROUND (very subtle) */}
       <div className="absolute inset-0 bg-[linear-gradient(#e5e7eb_1px,transparent_1px),linear-gradient(to_right,#e5e7eb_1px,transparent_1px)] bg-size-[32px_32px] opacity-30"></div>
@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 w-125 h-100 bg-purple-300/30 blur-[120px]"></div>
 
       {/* CONTENT */}
-      <div className="relative z-10 container mx-auto px-4">
+      <div className="z-10 container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-16">
 
           {/* LEFT */}
@@ -38,13 +38,13 @@ A dedicated Discord space built for real interaction, learning, and support.
             {/* BUTTON */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
 
-              <button to="/demo" className="bg-[#0f172a] cursor-pointer text-white px-6 py-3 rounded-full font-medium shadow-md hover:bg-[#1e293b] transition">
+              <Link to="/demo" className="bg-[#0f172a] cursor-pointer text-white px-6 py-3 rounded-full font-medium shadow-md hover:bg-[#1e293b] transition">
                 Join Community
-              </button>
+              </Link>
 
-              <button to="/get-started" className="bg-white cursor-pointer border border-gray-300 px-6 py-3 rounded-full font-medium shadow-sm hover:bg-gray-100 transition">
+              <Link to="/get-started" className="bg-white cursor-pointer border border-gray-300 px-6 py-3 rounded-full font-medium shadow-sm hover:bg-gray-100 transition">
                 Get Started
-              </button>
+              </Link>
 
             </div>
 
