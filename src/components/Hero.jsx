@@ -38,11 +38,11 @@ A dedicated Discord space built for real interaction, learning, and support.
             {/* BUTTON */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
 
-              <Link to="/demo" className="bg-[#0f172a] cursor-pointer text-white px-6 py-3 rounded-full font-medium shadow-md hover:bg-[#1e293b] transition">
+              <Link to="/memberships" className="bg-[#0f172a] cursor-pointer text-white px-6 py-3 rounded-full font-medium shadow-md hover:bg-[#1e293b] transition">
                 Join Community
               </Link>
 
-              <Link to="/get-started" className="bg-white cursor-pointer border border-gray-300 px-6 py-3 rounded-full font-medium shadow-sm hover:bg-gray-100 transition">
+              <Link to="/courses" className="bg-white cursor-pointer border border-gray-300 px-6 py-3 rounded-full font-medium shadow-sm hover:bg-gray-100 transition">
                 Get Started
               </Link>
 
