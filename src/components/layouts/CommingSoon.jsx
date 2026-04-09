@@ -1,9 +1,9 @@
-import commingsoonimg from '../assets/Comming_soon_img.svg';
+import commingsoonimg from '../../assets/Comming_soon_img.svg';
 import { Link } from "react-router-dom";
 
 export default function ComingSoon({ page = "Page" }) {
   return (
-    <div className="h-screen flex items-center justify-center text-center px-4 bg-gray-50">
+    <div className="h-screen flex items-center min-h-[calc(100vh-64px)] justify-center text-center px-4 bg-gray-50">
       <div className="space-y-6">
         
         {/* Title */}

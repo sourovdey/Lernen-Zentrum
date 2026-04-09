@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import hero from "../assets/Hero.svg";
+import hero from "../../assets/Hero.svg";
 
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[calc(100vh-64px)] flex items-start lg:items-center font-poppins overflow-hidden bg-[#f8fafc] py-10 lg:py-0">
+    <section className="relative w-full min-h-[calc(100vh-64px)] border-b border-gray-300 flex items-start lg:items-center font-poppins overflow-hidden bg-[#f8fafc] py-10 lg:py-0">
 
       {/* 🔲 GRID BACKGROUND (very subtle) */}
       <div className="absolute inset-0 bg-[linear-gradient(#e5e7eb_1px,transparent_1px),linear-gradient(to_right,#e5e7eb_1px,transparent_1px)] bg-size-[32px_32px] opacity-30"></div>

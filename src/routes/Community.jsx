@@ -1,5 +1,4 @@
-import React from 'react'
-import CommingSoon from '../components/CommingSoon'
+import CommingSoon from '../components/layouts/CommingSoon'
 
 const Community = () => {
   return (

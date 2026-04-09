@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
-import logo from "../assets/Lernen_Zentrum_logo.svg";
+import logo from "../../assets/Lernen_Zentrum_logo.svg";
 
 export default function Footer() {
   const policyLinks = [

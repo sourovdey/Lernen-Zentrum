@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../assets/Lernen_Zentrum_logo.svg";
+import logo from "../../assets/Lernen_Zentrum_logo.svg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -100,11 +100,11 @@ export default function Navbar() {
             {/* Join Our Community Button */}
             <div className="mt-2 border-t border-gray-300 pt-4 flex justify-center">
               <NavLink
-                to="/join-our-community"
+                to="/memberships"
                 className="bg-slate-900 text-white text-sm px-4 py-2 rounded-full"
                 onClick={() => setMenuOpen(false)}
               >
-                Join Our Community
+                Become a Member
               </NavLink>
             </div>
           </div>
