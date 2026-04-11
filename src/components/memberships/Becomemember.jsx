@@ -191,7 +191,7 @@ export default function MembershipsHero() {
                 <input
                     type="email"
                     required
-                    placeholder="example@mail.com"
+                    placeholder="youremail@gmail.com"
                     name="email"
                     className="w-full border border-gray-300 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-purple-500 bg-white"
                 />
@@ -206,7 +206,7 @@ export default function MembershipsHero() {
                     <input
                     type="tel"
                     required
-                    placeholder="01XXXXXXXXX"
+                    placeholder="01234567890"
                     name="mobile"
                     inputMode="numeric"
                     pattern="[0-9]*"
