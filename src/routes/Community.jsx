@@ -1,8 +1,12 @@
-import CommingSoon from '../components/layouts/CommingSoon'
+import Hero from '../components/community/Hero'
+import Whatyouget from '../components/community/Whatyouget'
 
 const Community = () => {
   return (
-    <CommingSoon page="Community" />
+    <>
+      <Hero/>
+      <Whatyouget/>
+    </>
   )
 }
 

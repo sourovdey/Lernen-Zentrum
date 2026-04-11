@@ -1,11 +1,9 @@
-import Hero from "../components/memberships/Hero"
-import Whatyouget from "../components/memberships/Whatyouget"
+import MembershipsHero from "../components/memberships/Becomemember";
 
 const Memberships = () => {
   return (
     <>
-    <Hero />
-    <Whatyouget />
+    <MembershipsHero/>
     </>
   )
 }
