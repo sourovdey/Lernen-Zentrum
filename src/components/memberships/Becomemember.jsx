@@ -385,7 +385,7 @@ export default function MembershipsHero() {
             </p>
 
             <a
-              href="https://discord.gg/HkuBDkBPYn"
+              href="https://discord.gg/pC85k8eQUH"
               target="_blank"
               className="inline-block px-6 py-3 bg-black text-white rounded-xl cursor-pointer"
             >
