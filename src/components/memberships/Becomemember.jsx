@@ -29,7 +29,7 @@ export default function MembershipsHero() {
   
 
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center font-poppins overflow-hidden bg-[#f8fafc] px-4 py-10">
+    <section className="relative w-full min-h-[calc(100vh-64px)] flex items-center justify-center font-poppins overflow-hidden bg-[#f8fafc] px-4 py-10">
 
       {/* 🔲 GRID BACKGROUND */}
       <div className="absolute inset-0 bg-[linear-gradient(#e5e7eb_1px,transparent_1px),linear-gradient(to_right,#e5e7eb_1px,transparent_1px)] bg-[size:32px_32px] opacity-30"></div>
